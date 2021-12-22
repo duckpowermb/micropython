@@ -16,8 +16,7 @@
 #define MICROPY_HW_CLK_USE_HSE (1)
 #define MICROPY_HW_CLK_USE_HSI (0)
 
-// does not have a 32kHz crystal
-#define MICROPY_HW_RTC_USE_LSE      (0)
+#define MICROPY_HW_RTC_USE_LSE      (1)
 
 // UART config
 #define MICROPY_HW_UART1_TX     (pin_A9)
