@@ -4,7 +4,7 @@
 #define MICROPY_HW_HAS_SWITCH       (1)
 #define MICROPY_HW_HAS_FLASH        (1)
 #define MICROPY_HW_ENABLE_RTC       (1)
-#define MICROPY_HW_ENABLE_USB       (0)
+#define MICROPY_HW_ENABLE_USB       (1)
 #define MICROPY_HW_ENABLE_SERVO     (0)
 
 // HSE is 8MHz
@@ -62,3 +62,7 @@
 // #define MICROPY_HW_USB_FS              (0)
 // #define MICROPY_HW_USB_VBUS_DETECT_PIN (pin_A9)
 // #define MICROPY_HW_USB_OTG_ID_PIN      (pin_A10)
+// USB config
+#define MICROPY_HW_USB_FS           (1)
+#define MICROPY_HW_USB_CDC_RX_DATA_SIZE (512)
+#define MICROPY_HW_USB_CDC_TX_DATA_SIZE (512)
