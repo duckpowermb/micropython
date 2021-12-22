@@ -8,13 +8,13 @@
 #define MICROPY_HW_ENABLE_SERVO     (0)
 
 // HSE is 8MHz
-#define MICROPY_HW_CLK_PLLM (8)
-#define MICROPY_HW_CLK_PLLN (100)
+#define MICROPY_HW_CLK_PLLM (12)
+#define MICROPY_HW_CLK_PLLN (96)
 #define MICROPY_HW_CLK_PLLP (RCC_PLLP_DIV2)
 #define MICROPY_HW_CLK_PLLQ (4)
 
-#define MICROPY_HW_CLK_USE_HSE (0)
-#define MICROPY_HW_CLK_USE_HSI (1)
+#define MICROPY_HW_CLK_USE_HSE (1)
+#define MICROPY_HW_CLK_USE_HSI (0)
 
 // does not have a 32kHz crystal
 #define MICROPY_HW_RTC_USE_LSE      (0)
