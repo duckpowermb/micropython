@@ -6,6 +6,7 @@
 #define MICROPY_HW_ENABLE_RTC       (1)
 #define MICROPY_HW_ENABLE_USB       (1)
 #define MICROPY_HW_ENABLE_SERVO     (0)
+#define MICROPY_PY_THREAD           (1)
 
 // HSE is 8MHz
 #define MICROPY_HW_CLK_PLLM (12)
